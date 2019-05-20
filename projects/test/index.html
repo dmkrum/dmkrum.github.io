@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Interaction for Data Visualization Study</title>
+</head>
+<body style="color: rgb(0, 0, 0); background-color: rgb(221, 221, 221);" alink="#000099" link="#000099" vlink="#990099">
+<center>
+<p id="applet">Applet</p>
+</center>
+If needed, <a href="http://www.java.com" target="_java">Download Java</a>
+<script type="text/javascript">
+
+function gup( name )
+{
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.location.href );
+  if( results == null )
+    return "";
+  else
+    return results[1];
+}
+
+var newstr0='<applet code="DrawingLines.class" archive="wigtest.jar" height="525" width="975">\
+<PARAM NAME="attribute0"    VALUE="7">\
+<PARAM NAME="selection0"    VALUE="2">\
+<PARAM NAME="arrow0"        VALUE="1">\
+<PARAM NAME="attribute1"    VALUE="0">\
+<PARAM NAME="selection1"    VALUE="0">\
+<PARAM NAME="arrow1"        VALUE="0">\
+<PARAM NAME="test"         VALUE="1">\
+<PARAM NAME="number"       VALUE="10">\
+<PARAM NAME="id"           VALUE="';
+
+var newstr1='">Java is not supported in your browser, please visit <a href="java.com">java.com</a> to install Java.</applet>';
+
+document.getElementById("applet").innerHTML=newstr0+gup( 'id' )+newstr1;
+
+</script>
+</body>
+</html>
