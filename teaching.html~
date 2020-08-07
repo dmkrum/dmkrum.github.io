@@ -78,9 +78,7 @@ img {
   border-radius: 12px;
   width: 100%;
   height: auto;
-  max-width: 367px;
-  float: left;
-  padding: 16px;
+  max-width: 100%;
 }
 
 .main {
@@ -95,7 +93,6 @@ img {
   background-color: white;    
   text-align: left;
   padding: 32px;
-  min-height: 452px;
 }
 
 </style>
@@ -103,7 +100,7 @@ img {
 <body>
   
 <div class="navbar">
-  <a href="./index.html">David M. Krum</a>
+  <a href="./test.html">David M. Krum</a>
   <a href="./about.html">About</a>
   <div class="dropdown">
   <button class="dropbtn" onclick="TeachingFunction()">Teaching &blacktriangledown;
@@ -139,47 +136,15 @@ img {
 
 <div class="main">
 <!--Start Content -->
-<img src="./images/krum-hmd-small.png" width="1280" height="235">
+<img src="./images/class.png" width="1280" height="378">
 
 <div class="myDiv">
 
-<p>
-Dr. David Krum is
-an <a href="http://www.calstatela.edu/faculty/david-krum">Assistant
-Professor</a> of <a href="http://www.calstatela.edu/ecst/cs">Computer
-Science</a> at the <a href="http://www.calstatela.edu">California
-State University, Los Angeles</a>. His research interests include
-human-computer interaction, virtual/augmented reality, and 3D
-interaction. He began his research into virtual reality technologies
-in 1998.
-<p>
-Previously, he was the Associate Director for Mixed Reality Technology
-at the <a href="https://mxr.ict.usc.edu">ICT Mixed Reality Lab</a>,
-which developed new techniques and technologies for presenting
-immersive experiences. At <a href="https://ict.usc.edu">ICT</a>, he
-contributed to development of low cost virtual reality displays, such
-as the smartphone based FOV2GO, and REFLCT, a head mounted projector
-display for augmented reality.
-<p>
-David also worked as a research
-scientist for the Bosch Research and Technology Center, investigating
-automotive user interfaces and 3D visualizations for building security
-systems.  He was a software engineer at Motorola, contributing to data
-communications products like the BitSURFR ISDN modem, selected as a
-Best Product of 1996 by PC Magazine.
-<p>
-David earned a BS in Engineering and Applied Science from the 
-California Institute of Technology and an MS in Computer Science 
-from University of Alabama in Huntsville. His PhD, from the 
-Georgia Institute of Technology, focused on how wearable computers, 
-combined with 3D visualizations could help spatial cognition, 
-that is, help individuals more quickly learn the structure of 
-their surrounding environment. His dissertation involved an 
-eyeglass mounted wearable computer display, a decade before the 
-introduction of Google Glass.
-<p>
-<a href="./cv.david.krum.pdf">Curriculum Vitae</a><br>
-  
+<h3 id="Fall2020">Fall 2020</h3>
+<ul><li>I am teaching CS 4555: Introduction to 3D Game Developing for Fall 2020.</li></ul>
+<h3 id="Spring2021">Spring 2021</h3>
+<ul><li>I am developing new courses in human-computer interaction and virtual/augmented reality for future terms.</li></ul>
+
 </div>
 
 <!--End Content -->

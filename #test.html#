@@ -4,11 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-
-body {
-    background-color: black;
-}
-  
 .navbar {
   background-color: #333;
   font-family: Arial, Helvetica, sans-serif;
@@ -71,40 +66,26 @@ body {
 }
 
 .show {
-  display: block;
+    display: block;
 }
 
 img {
-  border-radius: 12px;
-  width: 100%;
-  height: auto;
-  max-width: 367px;
-  float: left;
-  padding: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main {
   padding: 8px;
   margin-top: 48px;
-  background-color: black;
 }
-
-.myDiv {
-  border-radius: 12px;
-  border: 1px outset black;
-  background-color: white;    
-  text-align: left;
-  padding: 32px;
-  min-height: 452px;
-}
-
 </style>
 </head>
 <body>
-  
+
 <div class="navbar">
-  <a href="./index.html">David M. Krum</a>
-  <a href="./about.html">About</a>
+  <a href="./test.html">David M. Krum</a>
+  <a href="./education.html">About</a>
   <div class="dropdown">
   <button class="dropbtn" onclick="TeachingFunction()">Teaching &blacktriangledown;
   </button>
@@ -119,36 +100,37 @@ img {
   <div class="dropdown-content" id="ResearchDropdown">
     <a href="./projects.html">Projects</a>
     <a href="./publications.html">Publications</a>
-    <a href="https://github.com/dmkrum/">Software</a>
-    <a href="./collaboration.html">Collaboration</a>
+    <a href="./software.html">Software</a>
+    <a href="#">Collaboration</a>
+    <a href="#">Laboratory</a>
   </div>
   </div> 
   <div class="dropdown">
-  <button class="dropbtn" onclick="OpportunitiesFunction()">Work with me &blacktriangledown;
+  <button class="dropbtn" onclick="OpportunitiesFunction()">Students &blacktriangledown;
   </button>
   <div class="dropdown-content" id="OpportunitiesDropdown">
-    <a href="students.html#research">Student Research</a>
-    <a href="students.html#capstone">Senior Capstone Projects</a>
-    <a href="students.html#MS">MS Projects/Theses</a>
-    <a href="studies.html">Study Participation</a>
-    <a href="sponsor.html">Sponsored Research</a>
+    <a href="#">Student Research</a>
+    <a href="#">Senior Capstone Projects</a>
+    <a href="#">MS Projects/Theses</a>
+    <a href="#">Senior Capstone Projects</a>
+    <a href="#">Study Participation</a>
   </div>
   </div> 
-  <a href="contact.html">Contact</a>  
+  <a href="#news">News</a>
+  <a href="contact.">Contact</a>  
 </div>
 
 <div class="main">
-<!--Start Content -->
-<img src="./images/krum-hmd-small.png" width="1280" height="235">
-
-<div class="myDiv">
+<!--Start Content -->  
+<img src="./images/krum-hmd-small.png" width="367" height="452">
 
 <p>
 Dr. David Krum is
 an <a href="http://www.calstatela.edu/faculty/david-krum">Assistant
 Professor</a> of <a href="http://www.calstatela.edu/ecst/cs">Computer
 Science</a> at the <a href="http://www.calstatela.edu">California
-State University, Los Angeles</a>. His research interests include
+State University, Los Angeles</a>. He will be teaching a course in 3D
+game development in the fall of 2020. His research interests include
 human-computer interaction, virtual/augmented reality, and 3D
 interaction. He began his research into virtual reality technologies
 in 1998.
@@ -159,9 +141,7 @@ which developed new techniques and technologies for presenting
 immersive experiences. At <a href="https://ict.usc.edu">ICT</a>, he
 contributed to development of low cost virtual reality displays, such
 as the smartphone based FOV2GO, and REFLCT, a head mounted projector
-display for augmented reality.
-<p>
-David also worked as a research
+display for augmented reality. David also worked as a research
 scientist for the Bosch Research and Technology Center, investigating
 automotive user interfaces and 3D visualizations for building security
 systems.  He was a software engineer at Motorola, contributing to data
@@ -179,9 +159,6 @@ eyeglass mounted wearable computer display, a decade before the
 introduction of Google Glass.
 <p>
 <a href="./cv.david.krum.pdf">Curriculum Vitae</a><br>
-  
-</div>
-
 <!--End Content -->
 </div>
 <script>
