@@ -141,21 +141,29 @@ img {
 
 <div class="main">
 <!--Start Content -->
-<img src="./images/class.png" width="1280" height="378">
+<img src="./images/type.png" width="1280" height="235">
 
 <div class="myDiv">
 
-<h3>Teaching</h3>
-  
 <p>
-  My courses use <a href="https://canvas.calstatela.edu/">Canvas</a>.
+I can be reached at dkrum at calstatela.edu.
 </p>
-
-<h3 id="Fall2020">Fall 2020</h3>
-<ul><li>I am teaching CS 4555: Introduction to 3D Game Developing for Fall 2020.</li></ul>
-<h3 id="Spring2021">Spring 2021</h3>
-<ul><li>I am developing new courses in human-computer interaction and virtual/augmented reality for future terms.</li></ul>
-
+<p>
+Students in my courses can reach me through <a href="https://canvas.calstatela.edu/">Canvas</a>.
+</p>
+<p>
+  On occasion, I have been available for interviews or talks on topics such as:
+</p>
+<ul>
+  <li>Virtual Reality</li>
+  <li>Augmented Reality</li>
+  <li>Mixed Reality</li>
+  <li>Human-Computer Interaction</li>
+  <li>Automotive Interfaces</li>
+  <li>Simulation and Training</li>
+  <li>Wearable Computers</li>
+</ul>
+  
 </div>
 
 <!--End Content -->
