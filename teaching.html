@@ -107,16 +107,7 @@ img {
 <div class="navbar">
   <a href="./index.html">David M. Krum</a>
   <a href="./about.html">About</a>
-  <div class="dropdown">
-  <button class="dropbtn" onclick="TeachingFunction()">Teaching &blacktriangledown;
-  </button>
-  <div class="dropdown-content" id="TeachingDropdown">
-    <a href="teaching.html#Spring2022">Spring 2022</a>
-    <a href="teaching.html#Fall2021">Fall 2021</a>
-    <a href="teaching.html#Spring2021">Spring 2021</a>
-    <a href="teaching.html#Fall2020">Fall 2020</a>
-  </div>
-  </div> 
+  <a href="./teaching.html">Teaching</a>
   <div class="dropdown">
   <button class="dropbtn" onclick="ResearchFunction()">Research &blacktriangledown;
   </button>
@@ -153,17 +144,33 @@ img {
   My courses use <a href="https://canvas.calstatela.edu/">Canvas</a>.
 </p>
 
+<h3 id="Fall2024">Fall 2024</h3>
+<ul><li>I am teaching <em>CS 4555-01: Introduction to 3D Game Programming</em> for Fall 2024.<br>This course covers game design and development, with a focus on the Unity game engine.</li></ul>
+<ul><li>I am teaching <em>CS 4875-01: Human-Centered Computing<em> for Fall 2024.<br>This course covers topics such as human-computer interaction, user interface design, evaluation, and interaction modalities.</li></ul>
+<h3 id="Summer2024">Summer 2024</h3>
+<ul><li>I helped teach <em>CS 7010-01: Introduction to Computational Thinking and Programming</em> for Summer 2024.<br>This course part of the Cal State LA CSSA program, which helps teachers earn their Computer Science Supplementary Authorization, which can qualify them to each CS within the K-12 grade levels.</li></ul>
+<h3 id="Spring2024">Spring 2024</h3>
+<ul><li><em>CS 4540-01: Topics in Advanced Computer Science: Virtual Reality and Immersive Worlds</em>br>This course covers design and development of virtual reality applications.</li></ul>
+<ul><li><em>ENGR 1540-01: Human Centered Design and Engineering for Impact</em><br>This course covers the human centered design process, including requirements gathering, prototyping, iteration, and evaluation. This course involves team projects to solve real problems.</li></ul>
+<h3 id="Fall2023">Fall 2023</h3>
+<ul><li><em>CS 2011-05: Introduction to Programming</em><br>This course covers introductory programming in Java.</li></ul>
+<ul><li><em>CS 4555-01: Introduction to 3D Game Programming</em><br>This course covers game design and development, with a focus on the Unity game engine.</li></ul>
+<h3 id="Spring2023">Spring 2023</h3>
+<ul><li><em>CS 2011-07: Introduction to Programming</em><br>This course covers introductory programming in Java.</li></ul>
+<ul><li><em>CS 4540-01: Topics in Advanced Computer Science: Virtual Reality and Immersive Worlds</em>br>This course covers design and development of virtual reality applications.</li></ul>
+<h3 id="Fall2022">Fall 2022</h3>
+<ul><li><em>CS 4555-01: Introduction to 3D Game Programming</em><br>This course covers game design and development, with a focus on the Unity game engine.</li></ul>
 <h3 id="Spring2022">Spring 2022</h3>
-<ul><li>I am teaching <em>CS 4540-02: Topics in Advanced Computer Science: Human Centered Computing</em> for Spring 2022.<br>This course covers topics such as human-computer interaction, user interface design, evaluation, and interaction modalities.</li></ul>
+<ul><li><em>CS 4540-02: Topics in Advanced Computer Science: Human Centered Computing</em><br>This course covers topics such as human-computer interaction, user interface design, evaluation, and interaction modalities.</li></ul>
 <h3 id="Fall2021">Fall 2021</h3>
-<ul><li>I am teaching <em>CS 4555-01: Introduction to 3D Game Programming</em> for Fall 2021.<br>This course covers game design and development, with a focus on the Unity game engine.</li></ul>
+<ul><li><em>CS 4555-01: Introduction to 3D Game Programming</em><br>This course covers game design and development, with a focus on the Unity game engine.</li></ul>
 <h3 id="Spring2021">Spring 2021</h3>
-<ul><li>I taught <em>CS 4540-02: Topics in Advanced Computer Science: Human Centered Computing</em> for Spring 2021.<br>This course covers topics such as human-computer interaction, user interface design, evaluation, and interaction modalities.</li></ul>
+<ul><li><em>CS 4540-02: Topics in Advanced Computer Science: Human Centered Computing</em><br>This course covers topics such as human-computer interaction, user interface design, evaluation, and interaction modalities.</li></ul>
 <h3 id="Fall2020">Fall 2020</h3>
-<ul><li>I taught <em>CS 4555-01: Introduction to 3D Game Programming</em> for Fall 2020.<br>This course covers game design and development, with a focus on the Unity game engine.</li></ul>
-<h3 id="Future">Future</h3>
+<ul><li><em>CS 4555-01: Introduction to 3D Game Programming</em><br>This course covers game design and development, with a focus on the Unity game engine.</li></ul>
+<!--<h3 id="Future">Future</h3>
 <ul><li>I am developing several courses for future terms. One will examine Virtual Reality/Augmented Reality. Another course will be an introduction to Computational Thinking.</li></ul>
-
+-->
 </div>
 
 <!--End Content -->
@@ -171,27 +178,7 @@ img {
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function TeachingFunction() {
-   var myDropdown = document.getElementById("TeachingDropdown");
-   if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  var myDropdown = document.getElementById("ResearchDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  var myDropdown = document.getElementById("OpportunitiesDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-document.getElementById("TeachingDropdown").classList.toggle("show");
-}
-
 function ResearchFunction() {
-    var myDropdown = document.getElementById("TeachingDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
   var myDropdown = document.getElementById("ResearchDropdown");
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
@@ -204,10 +191,6 @@ document.getElementById("ResearchDropdown").classList.toggle("show");
 }
 
 function OpportunitiesFunction() {
-    var myDropdown = document.getElementById("TeachingDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
   var myDropdown = document.getElementById("ResearchDropdown");
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
@@ -224,10 +207,6 @@ document.getElementById("OpportunitiesDropdown").classList.toggle("show");
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) 
   {
-  var myDropdown = document.getElementById("TeachingDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
   var myDropdown = document.getElementById("ResearchDropdown");
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');

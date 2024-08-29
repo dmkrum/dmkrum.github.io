@@ -107,16 +107,7 @@ img {
 <div class="navbar">
   <a href="./index.html">David M. Krum</a>
   <a href="./about.html">About</a>
-  <div class="dropdown">
-  <button class="dropbtn" onclick="TeachingFunction()">Teaching &blacktriangledown;
-  </button>
-  <div class="dropdown-content" id="TeachingDropdown">
-    <a href="teaching.html#Spring2022">Spring 2022</a>
-    <a href="teaching.html#Fall2021">Fall 2021</a>
-    <a href="teaching.html#Spring2021">Spring 2021</a>
-    <a href="teaching.html#Fall2020">Fall 2020</a>
-  </div>
-  </div> 
+  <a href="./teaching.html">Teaching</a>
   <div class="dropdown">
   <button class="dropbtn" onclick="ResearchFunction()">Research &blacktriangledown;
   </button>
@@ -180,27 +171,7 @@ img {
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function TeachingFunction() {
-   var myDropdown = document.getElementById("TeachingDropdown");
-   if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  var myDropdown = document.getElementById("ResearchDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  var myDropdown = document.getElementById("OpportunitiesDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-document.getElementById("TeachingDropdown").classList.toggle("show");
-}
-
 function ResearchFunction() {
-    var myDropdown = document.getElementById("TeachingDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
   var myDropdown = document.getElementById("ResearchDropdown");
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
@@ -213,10 +184,6 @@ document.getElementById("ResearchDropdown").classList.toggle("show");
 }
 
 function OpportunitiesFunction() {
-    var myDropdown = document.getElementById("TeachingDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
   var myDropdown = document.getElementById("ResearchDropdown");
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
@@ -233,10 +200,6 @@ document.getElementById("OpportunitiesDropdown").classList.toggle("show");
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) 
   {
-  var myDropdown = document.getElementById("TeachingDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
   var myDropdown = document.getElementById("ResearchDropdown");
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
